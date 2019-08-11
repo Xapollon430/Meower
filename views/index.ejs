@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Meower</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meower Twitter For Cats</h1>
+    </header>
+    <main>
+      <form action="" class="mew-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" class="u-full-width" />
+        <label for="content">Mew</label>
+        <textarea
+          name="content"
+          id="content"
+          type="text"
+          class="u-full-width"
+        ></textarea>
+        <button class="button-primary inline" style="display:inline;">
+          Send your Mew
+        </button>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link prev">Previous</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link number">1</a>
+            </li>
+            <li class="page-item"><a class="page-link next">Next</a></li>
+          </ul>
+        </nav>
+      </form>
+    </main>
+    <div class="spinner-wrapper">
+      <div
+        class="spinner-border text-info m-5 hide"
+        style="width: 7rem; height: 7rem;"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <div id="mews">
+      <div
+        class="spinner-border text-info m-5 hide"
+        style="width: 7rem; height: 7rem;"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="mewResults"></div>
+    </div>
+
+    <script src="./js/client.js"></script>
+  </body>
+</html>

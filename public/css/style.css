@@ -1,0 +1,25 @@
+header {
+  text-align: center;
+}
+
+.mew-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.spinner-wrapper {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+#mews {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#mews h5 {
+  margin: 0px;
+}
